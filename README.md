@@ -10,7 +10,7 @@ Louise wants to run a crowdfunding campaign to promote her play "Fever", she nee
 
 
 ## Analysis and Challenges
-I began parceling through data and considering what data would likely be "noise" for the project. Implementing filters, conditional formatting, and [converting Unix timestamps]([url](https://websiteseochecker.com/blog/what-is-timestamp/) to readable format was the first challenge. Creating Pivot tables to isolate several variables and providing a clear and concise chart that could easily represent the data was the second challenge. The third challenge was consistently debugging, addressing outliers, establishing the statistical value of the data provided, and manipulating data to be the most effective for decision making.
+I began parceling through data and considering what data would likely be "noise" for the project. Implementing filters, conditional formatting, and [converting Unix Timestamps]([url](https://websiteseochecker.com/blog/what-is-timestamp/)) to readable format was the first challenge. Creating Pivot tables to isolate several variables and providing a clear and concise chart that could easily represent the data was the second challenge. The third challenge was consistently debugging, addressing outliers, establishing the statistical value of the data provided, and manipulating data to be the most effective for decision making.
 
 ### Analysis of Outcomes Based on Launch Date
 One of the analyses conducted was to isolate key factors in crowdfunding campaigns: time of year, outcome viability, and category-specific renderings such as "theater". The month that launched the most successful Kickstarter campaigns was in May.
