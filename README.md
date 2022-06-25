@@ -15,8 +15,13 @@ I began parceling through data and considering what data would likely be "noise"
 ### Analysis of Outcomes Based on Launch Date
 One of the analyses conducted was to isolate key factors in crowdfunding campaigns: time of year, outcome viability, and category-specific renderings such as "theater". The month that launched the most successful Kickstarter campaigns was in May.
 
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/107026442/175793240-d4406252-d92b-497c-9c56-e55385894421.png)
+
 ### Analysis of Outcomes Based on Goals
 Another analysis conducted was to group campaign goals in increments of $4,999 from the range of $0 to $50,000+. Counting the number of successful, failed, and canceled projects and their percentages. The criteria for this analysis were strictly regulated to count the number of "plays" within each price bracket. This was achieved with a COUNTIFS function which denotes counting the number of campaign goals within each price bracket, cross-examining it with success, failure, or cancelation of a project, and lastly only viewing "plays".
+
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/107026442/175793284-5a946a5e-0358-4c90-b674-144cbaf6a803.png)
+
 
 ### Challenges and Difficulties Encountered
 Some difficulties I encountered were ensuring no data was lost or corrupted. It required me to be vigilant of all columns and rows that were filtered at any given time. I was sure to take note of the range of cells affected by filtration and if I moved columns or changed the data in any way I double-checked no cells were lost. Maintaining formulas amongst different columns also posed issues. I was faced with inconsistent calculations and had to redo the analysis and find where it initially went wrong. The mistake was a minor highlighting error that causes huge repercussions. Understanding how sensitive data is to corruption was a valuable lesson. 
@@ -31,10 +36,8 @@ Of all the campaigns that launched in June, 65% are successful and 32% fail.
 Of all the campaigns that launched in July, 63% are successful and 36% fail.
 Of all the campaigns that launched in August 63% are successful and 38% fail.
 
-
 - What can you conclude about the Outcomes based on Goals?
 The most successful campaigns will have approximate goals of 0-5000 (73%-76%)or $35,000-$39,999 (67%).
-
 
 - What are some limitations of this dataset?
 Why there is a spike in the success of campaign goals at $35,000-$39,999? 
