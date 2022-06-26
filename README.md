@@ -14,8 +14,7 @@ I began parceling through data and considering what data would likely be "noise"
 
 ![Screen Shot 2022-06-25 at 4 44 33 PM](https://user-images.githubusercontent.com/107026442/175793770-a868567e-62a1-4fd9-8059-b6f90d6adfe0.png)
 ![Parent_Cat_Outcomes](https://user-images.githubusercontent.com/107026442/175793922-d35b74cc-c753-4606-acb2-d3ff3f0af9f2.png)
-
-
+![Subcategory_Outcomes](https://user-images.githubusercontent.com/107026442/175794309-578cea15-b0aa-44f6-b791-b6e4bd6151a2.png)
 
 ### Analysis of Outcomes Based on Launch Date
 One of the analyses conducted was to isolate key factors in crowdfunding campaigns: time of year, outcome viability, and category-specific renderings such as "theater". The month that launched the most successful Kickstarter campaigns was in May.
@@ -36,19 +35,19 @@ Some difficulties I encountered were ensuring no data was lost or corrupted. It 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 1) The best month to launch a campaign in May. 
 2) Of all the campaigns that launched in April, 62% are successful and 35% fail.
-Of all the campaigns that launch in May, 67% are successful and 31% fail.
-Of all the campaigns that launched in June, 65% are successful and 32% fail.
-Of all the campaigns that launched in July, 63% are successful and 36% fail.
-Of all the campaigns that launched in August 63% are successful and 38% fail.
+<br> Of all the campaigns that launch in May, 67% are successful and 31% fail.
+<br> Of all the campaigns that launched in June, 65% are successful and 32% fail.
+<br> Of all the campaigns that launched in July, 63% are successful and 36% fail.
+<br> Of all the campaigns that launched in August 63% are successful and 38% fail.
 
 - What can you conclude about the Outcomes based on Goals?
-The most successful campaigns will have approximate goals of 0-5000 (73%-76%)or $35,000-$39,999 (67%).
+<br> The most successful campaigns will have approximate goals of 0-5000 (73%-76%)or $35,000-$39,999 (67%).
 
 - What are some limitations of this dataset?
-Why there is a spike in the success of campaign goals at $35,000-$39,999? 
+<br> Why there is a spike in the success of campaign goals at $35,000-$39,999? 
 Narrowing the dataset even more to genres and the specific cities of campaigns. There isn't enough information to make a decision.
 
 - What are some other possible tables and/or graphs that we could create?
-How many backers per price bracket?
+<br> How many backers per price bracket?
 How many successful campaigns were picked by staff?
 Keywords or Phrases in the Blurb or Title that correlate to success? 
