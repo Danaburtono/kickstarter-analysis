@@ -45,7 +45,7 @@ Some difficulties I encountered were ensuring no data was lost or corrupted. It 
 
 - What are some limitations of this dataset?
 <br> Why there is a spike in the success of campaign goals at $35,000-$39,999? 
-Narrowing the dataset even more to genres and the specific cities of campaigns. There isn't enough information to make a decision.
+Narrowing the dataset even more to genres and the specific cities of campaigns.
 
 - What are some other possible tables and/or graphs that we could create?
 <br> How many backers per price bracket?
