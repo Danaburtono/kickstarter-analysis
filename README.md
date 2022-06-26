@@ -1,6 +1,6 @@
 # An Analysis of Kickstarter Campaign
 Performing analysis on Kickstarter data to uncover trends
-# Kickstarting with Excel
+## Kickstarting with Excel
 
 ## Overview of Project
 Performing data analysis on several thousand crowdfunding projects to uncover any hidden trends. This analysis was conducted by reviewing the financial viability of projects similar to the proposed project by comparing campaign metrics such as goals and pledges, outcomes, and rendering the result to pertain to theater and plays. This report highlights what types of projects are successful, how much money is typically vested, and when they are most likely to succeed so the client may make an informed decision about their project. 
@@ -10,7 +10,12 @@ Louise wants to run a crowdfunding campaign to promote her play "Fever", she nee
 
 
 ## Analysis and Challenges
-I began parceling through data and considering what data would likely be "noise" for the project. Implementing filters, conditional formatting, and [Converting Unix Timestamps](https://websiteseochecker.com/blog/what-is-timestamp/) to readable format was the first challenge. Creating Pivot tables to isolate several variables and providing a clear and concise chart that could easily represent the data was the second challenge. The third challenge was consistently debugging `#DIV/0!` `=IFERROR(value,value_if_error)`, addressing outliers, establishing the statistical value of the data provided by using measures of Central Tendencies such as mean, median, standard deviation, upper and lower quartiles, and [Interquartile (IQR)](https://www.thoughtco.com/what-is-the-interquartile-range-rule-3126244) and manipulating data to be the most effective for decision making.
+I began parceling through data and considering what data would likely be "noise" for the project. Implementing filters, conditional formatting, and [Converting Unix Timestamps](https://websiteseochecker.com/blog/what-is-timestamp/) to readable format was the first challenge. Creating Pivot tables to isolate several variables and providing a clear and concise chart that could easily represent the data was the second challenge. The third challenge was consistently debugging `#DIV/0!` `IFERROR(value,value_if_error)`, addressing outliers, establishing the statistical value of the data provided by using measures of Central Tendencies such as mean, median, standard deviation, upper and lower quartiles, and [Interquartile (IQR)](https://www.thoughtco.com/what-is-the-interquartile-range-rule-3126244) and manipulating data to be the most effective for decision making. Preliminary analysis provide me with a foundation for which categories had the most success the graph labeled “Parent Cateogy Outcomes” illustrates that “Theater” campaigns are the most successful. With further investagtion “plays” are the most successful of the three types of “Theater” campaigns shown in Subcategory Outcomes graph.
+
+![Screen Shot 2022-06-25 at 4 44 33 PM](https://user-images.githubusercontent.com/107026442/175793770-a868567e-62a1-4fd9-8059-b6f90d6adfe0.png)
+![Parent_Cat_Outcomes](https://user-images.githubusercontent.com/107026442/175793922-d35b74cc-c753-4606-acb2-d3ff3f0af9f2.png)
+
+
 
 ### Analysis of Outcomes Based on Launch Date
 One of the analyses conducted was to isolate key factors in crowdfunding campaigns: time of year, outcome viability, and category-specific renderings such as "theater". The month that launched the most successful Kickstarter campaigns was in May.
@@ -18,7 +23,7 @@ One of the analyses conducted was to isolate key factors in crowdfunding campaig
 ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/107026442/175793240-d4406252-d92b-497c-9c56-e55385894421.png)
 
 ### Analysis of Outcomes Based on Goals
-Another analysis conducted was to group campaign goals in increments of $4,999 from the range of $0 to $50,000+. Counting the number of successful, failed, and canceled projects and their percentages. The criteria for this analysis were strictly regulated to count the number of "plays" within each price bracket. This was achieved with a `=COUNTIFS` function which denotes counting the number of campaign goals within each price bracket, cross-examining it with success, failure, or cancelation of a project, and lastly only viewing "plays".
+Another analysis conducted was to group campaign goals in increments of $4,999 from the range of $0 to $50,000+. Counting the number of successful, failed, and canceled projects and their percentages. The criteria for this analysis were strictly regulated to count the number of "plays" within each price bracket. This was achieved with a `COUNTIFS` function which denotes counting the number of campaign goals within each price bracket, cross-examining it with success, failure, or cancelation of a project, and lastly only viewing "plays".
 
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/107026442/175793284-5a946a5e-0358-4c90-b674-144cbaf6a803.png)
 
